@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+    
+}
+
+/* -------home Section --------- */
+
+#home{
+    background: url("./images/indian-flag-2644512.png");
+    background-size: cover;
+}
+
+.home{
+    height:95vh;
+    width:100%; 
+}
+
+.nav{
+    display:flex;
+    list-style: none;
+    justify-content:flex-end;
+    margin:30px 60px;
+
+}
+
+li>a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin:20px;
+}
+
+.items1{
+    color:#fc8004;
+}
+.items2{
+    color:#fc8004;
+}
+.items3{
+    color:white;
+}
+.items4{
+    color:#21cc12;
+}
+.items5{
+    color:#21cc12;
+}
+
+/* --------Indian Army section----------- */
+
+.heading{
+    display:grid;
+    grid-template-rows: 2;
+    width:40%;
+    margin:auto;
+    margin-top:45vh;
+    font-family: 'Poppins', sans-serif;
+}
+.heading>p{
+    color:white;
+    align-self: center;
+}
+
+#indianArmy{
+    background: -webkit-linear-gradient(360deg, #fc8004,#ffffff,#f1a35b);/* Chrome 10-25, Safari 5.1-6 */         
+    background: linear-gradient(360deg, #3b2f23,#ffffff,#3f3429);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+                                                                                                                                                                       
+}
+
+.army{
+    height:500vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+.flex{
+    display:flex;
+}
+
+.content{
+    width:70%;
+    text-align:center;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:30px;
+    color:white;
+    text-shadow: 0 0 10px rgba(248, 20, 4, 0.815);
+}
+
+.headingArm{
+    text-align:center; 
+    color:rgb(255, 102, 0);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+.row{
+    margin: 10px 25% 10px 25%;      
+    text-align: center;
+    color:#50885a;
+
+  }
+  .des{
+      display: flex;
+      flex-direction: column;
+      margin:25px;
+      width: 50%;
+  }
+  .des>h3{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    margin:10px;
+  }
+  .des>p{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 2px #080808;
+    color:#fad611;
+  }
+  .first{
+    height:200px;
+    width:100px;
+    margin-right: 30px;
+    float: left; /*used to wrap text around an image*/
+  }
+  .second{
+    height:200px;
+    width:100px;
+    margin-right: 130px;
+    float: right;
+  }
+
+  .chf{
+    height:250px;
+    width:200px;
+    margin-right: 80px;
+    margin-top: 20px;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius:6px;
+  }
+
+  .container {
+    
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+  
+  .responsive-image {  
+    max-width: 100%;
+  }
+  .cell img {
+    display: block;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0,0,0,.5);
+  }
+  @media screen and (min-width: 600px){
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .cell {
+      width:50%;
+    }
+  }
+  @media screen and (min-width: 1000px){
+    .cell {
+      width:calc (100%/3);
+    }
+  }
+  .cell {
+    margin: 1rem;
+  }
+  
+  @media screen and (min-width: 600px){
+    .cell {
+      width: calc(50% - 2rem);
+    }
+  }
+  @media screen and (min-width: 1000px){
+    .cell{
+      width: calc(33.3333% - 2rem);
+    }
+  }
+
+  /* --------Indian Navy Section------ */
+
+  
+#indianNavy{
+  background: -webkit-linear-gradient(360deg, #4fa4b3,#ffffff,#4fa4b3);/* Chrome 10-25, Safari 5.1-6 */         
+  background: linear-gradient(360deg,  #96dbe7,#ffffff,#96dbe7);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+                                                                                                                                                                     
+}
+.headingNav{
+  text-align:center; 
+  color:rgb(0, 162, 184);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255,255, 255,1);
+
+}
+
+.navy{
+  
+    height:500vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-top:50px;
+
+}
+
+.desn{
+  display: flex;
+  flex-direction: column;
+  margin:25px;
+  width: 50%;
+}
+.desn>h3{
+font-family: 'Poppins', sans-serif;
+letter-spacing: 1px;
+margin:10px;
+color:#f2cd0c;
+text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.desn>p{
+font-family: 'Poppins', sans-serif;
+text-shadow: 0 0 2px rgb(0,0,0,0.4);
+color:black;
+
+}
+
+/* ---------Indian Air Section-------- */
+
+#indianAir{
+  background: -webkit-linear-gradient(360deg, #535d5f,#ffffff,#4fa4b3);/* Chrome 10-25, Safari 5.1-6 */         
+  background: linear-gradient(360deg,  #6e7374,#6e7374);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+.headingAir{
+  text-align:center; 
+  color:#001528;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 0 0 4px white;
+
+}
+.contentA{
+  width:70%;
+  text-align:center;
+  margin:auto;
+  margin-top:10px;
+  margin-bottom:30px;
+  color:white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.15);
+}
+.desa{
+  display: flex;
+  flex-direction: column;
+  margin:25px;
+  width: 50%;
+}
+.desa>h3{
+font-family: 'Poppins', sans-serif;
+letter-spacing: 1px;
+margin:10px;
+text-shadow: 0 0 2px #fafcfd;
+color:#194766;
+
+}
+.desa>p{
+font-family: 'Poppins', sans-serif;
+color:#c5eef4;
+text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+
+}
+
+/* -------------careers------------ */
+
+#career{
+  height:95vh;
+  width:100%;
+  background:rgb(36, 31, 31);
+}
+
+.grids{
+    display:grid;
+    height:400px;
+    width:80%;
+    margin:auto;
+    margin-top:20vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:15px;
+    
+}
+
+.arm{
+  height:300px;
+  border-radius:7px;
+  box-shadow:0 0 8px rgba(0,0,0);
+  text-align: center;
+  
+ 
+
+}
+
+.arm>h5{
+  margin-top:20px;
+  font-size:16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.arm>img{
+  height:150px;
+  width:130px;
+  margin-top:20px;
+}
+
+.arm>div{
+  display:flex;
+  height:30px;
+  width:100px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: auto;
+  margin-top:15px;
+  border-radius: 5px;
+  justify-content:center;
+  align-items:center;
+  
+}
+.arm>div>a{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+}
+
+.armies1{
+  background:#f57d27;
+}
+.armies2{
+  background:white;
+}
+.armies3{
+  background:#2b981d;
+}
+
+
