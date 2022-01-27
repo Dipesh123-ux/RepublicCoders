@@ -115,6 +115,9 @@ li>a{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     margin:10px;
+    color:#516035;
+    text-shadow: 0 0 2px #ffffff;
+
   }
   .des>p{
     font-family: 'Poppins', sans-serif;
