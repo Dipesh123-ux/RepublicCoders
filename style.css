@@ -21,12 +21,15 @@
 .nav{
     display:flex;
     list-style: none;
+    flex-wrap: nowrap;
     justify-content:flex-end;
-    margin:30px 60px;
+    margin:-15px 50px;
 
 }
 
+
 li>a{
+     
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     margin:20px;
@@ -48,20 +51,80 @@ li>a{
     color:#21cc12;
 }
 
-/* --------Indian Army section----------- */
-
 .heading{
-    display:grid;
-    grid-template-rows: 2;
-    width:40%;
-    margin:auto;
-    margin-top:45vh;
-    font-family: 'Poppins', sans-serif;
+  display:grid;
+  grid-template-rows: 1fr;
+  width:40%;
+  margin:auto;
+  margin-top:45vh;
+  font-family: 'Poppins', sans-serif;
 }
 .heading>p{
-    color:white;
-    align-self: center;
+  color:white;
+  align-self: center;
 }
+
+i{
+  position:relative;
+  visibility: hidden;
+  font-size:25px;
+  color:white;
+  text-shadow: 0 0 3px rgba(255, 255, 255);
+}
+#op{
+ 
+  margin-left: 10vw;
+  margin-top: 50px;
+  visibility: hidden;
+
+}
+
+#cl{
+   position: relative;
+   right:23px;
+   z-index:1;
+   
+}
+
+@media (max-width:920px){
+  .nav{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.4);
+    margin-left:0px;
+    margin-top:-75px;
+    left:-700px;
+    transition:all 0.5s ease-in-out;
+    transform: translateX(0) rotate(0deg);
+    /* transform: translateX(-490px) rotate(-50deg); */
+
+    
+  }
+  .nav>li{
+    margin:30px;
+
+  }
+  #op{
+    visibility:visible;
+  }
+
+   #home{
+     
+     background-size:510px 900px;
+   }
+
+   .heading{
+     margin-top:-10px;
+     width:70%;
+   }
+ 
+
+}
+
+/* --------Indian Army section----------- */
+
 
 #indianArmy{
     background: -webkit-linear-gradient(360deg, #fc8004,#ffffff,#f1a35b);/* Chrome 10-25, Safari 5.1-6 */         
@@ -162,6 +225,42 @@ li>a{
     border-radius: 5px;
     box-shadow:0 0 10px rgba(0,0,0,.5);
   }
+  @media (max-width:920px){
+    .army{
+      margin-top:-30vh;
+    }
+    .content{
+      width:90%;
+    }
+    .first{
+      position:relative;
+      right:70px;
+    }
+    .second{
+      position:relative;
+      right:50px;
+    }
+    .des{
+      position: relative;
+      left:30px;
+      bottom:200px;
+      width: 90%;
+
+    }
+    .row{
+      margin-bottom: -130px;
+    }
+    #ca{
+      width: 300px;
+      position: relative;
+      top:10px;
+      margin-left:-70px;
+      padding-bottom: 100px;
+
+
+    }
+   
+  }
   @media screen and (min-width: 600px){
     .grid {
       display: flex;
@@ -239,6 +338,36 @@ color:black;
 
 }
 
+@media (max-width:920px){
+  .navy{
+    margin-top:-30vh;
+  }
+  .content{
+    width:90%;
+  }
+  .desn{
+    position: relative;
+    left:30px;
+    bottom:200px;
+    width: 90%;
+
+  }
+  .row{
+    margin-bottom: -130px;
+  }
+  #cn{
+    width: 300px;
+    position: relative;
+    top:10px;
+    margin-left:-70px;
+    padding-bottom: 100px;
+
+
+  }
+ 
+}
+
+
 /* ---------Indian Air Section-------- */
 
 #indianAir{
@@ -282,6 +411,30 @@ color:#c5eef4;
 text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 
 }
+
+@media (max-width:920px){
+  .desa{
+    position: relative;
+    left:30px;
+    bottom:200px;
+    width: 90%;
+
+  }
+  .row{
+    margin-bottom: -130px;
+  }
+  #cai{
+    width: 300px;
+    position: relative;
+    top:10px;
+    margin-left:-70px;
+    padding-bottom: 100px;
+
+
+  }
+ 
+}
+
 
 /* -------------careers------------ */
 
@@ -353,4 +506,16 @@ text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   background:#2b981d;
 }
 
+
+@media (max-width:990px){
+  .grids{
+    grid-template-columns: 1fr;
+    margin-top:-30vh;
+  }
+.arm{
+  height:300px;
+}
+
+
+}
 
